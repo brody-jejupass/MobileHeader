@@ -42,7 +42,7 @@ onMounted(() => {
 	<header id="header">
 		<router-link to="/" class="logo">제주패스</router-link>
 
-		<button type="button" class="btn btn-mypage">마이페이지</button>
+		<router-link to="" class="btn btn-mypage">마이페이지</router-link>
 	</header>
 
 	<div id="gnb">
