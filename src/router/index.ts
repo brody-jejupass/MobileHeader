@@ -11,7 +11,7 @@ const routes: RouteRecordRaw[] = Object.keys(pages).map((path) => {
 });
 
 const router = createRouter({
-	history: createWebHistory(),
+	history: createWebHistory('/MobileHeader/'),
 	routes,
 
 	scrollBehavior() {
